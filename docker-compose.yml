@@ -1,0 +1,68 @@
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: misicheng-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: dulizhan_vue_flask_powerstrip
+      TZ: Asia/Shanghai
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+      - --default-authentication-plugin=mysql_native_password
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./dulizhan_vue_flask_powerstrip.sql:/docker-entrypoint-initdb.d/01-init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -uroot -proot --silent"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: misicheng-backend
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: mysql+pymysql://root:root@mysql:3306/dulizhan_vue_flask_powerstrip?charset=utf8mb4
+      AUTO_CREATE_TABLES: "true"
+      AUTO_SEED: "false"
+      CORS_ORIGINS: https://misicheng.cn,https://www.misicheng.cn,http://misicheng.cn,http://www.misicheng.cn
+      SECRET_KEY: misicheng-production-secret
+      TZ: Asia/Shanghai
+      MEDIA_STORAGE_PROVIDER: ${MEDIA_STORAGE_PROVIDER:-local}
+      MEDIA_PUBLIC_BASE_URL: ${MEDIA_PUBLIC_BASE_URL:-}
+      ALIYUN_OSS_BUCKET: ${ALIYUN_OSS_BUCKET:-misicheng}
+      ALIYUN_OSS_ENDPOINT: ${ALIYUN_OSS_ENDPOINT:-oss-cn-hongkong.aliyuncs.com}
+      ALIYUN_OSS_ACCESS_KEY_ID: ${ALIYUN_OSS_ACCESS_KEY_ID:-}
+      ALIYUN_OSS_ACCESS_KEY_SECRET: ${ALIYUN_OSS_ACCESS_KEY_SECRET:-}
+      MEDIA_IMAGE_OPTIMIZE: ${MEDIA_IMAGE_OPTIMIZE:-true}
+      MEDIA_IMAGE_MAX_SIDE: ${MEDIA_IMAGE_MAX_SIDE:-1920}
+      MEDIA_IMAGE_JPEG_QUALITY: ${MEDIA_IMAGE_JPEG_QUALITY:-82}
+      MEDIA_IMAGE_WEBP_QUALITY: ${MEDIA_IMAGE_WEBP_QUALITY:-82}
+    volumes:
+      - backend_uploads:/app/backend/uploads
+      - ./frontend/src/messages:/app/frontend/src/messages
+    depends_on:
+      mysql:
+        condition: service_healthy
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: misicheng-frontend
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3000:80"
+    volumes:
+      - ./frontend/src/messages:/usr/share/nginx/html/messages:ro
+    depends_on:
+      - backend
+
+volumes:
+  mysql_data:
+  backend_uploads:

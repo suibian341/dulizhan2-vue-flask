@@ -1,0 +1,213 @@
+{
+  "analyzed_at": "2026-03-12",
+  "total_images": 12,
+  "images": [
+    {
+      "filename": "01_欧规.png",
+      "path": "C:/Users/Administrator/Desktop/claude/dulizhan2/public/images/categories/01_欧规.png",
+      "width": 257,
+      "height": 257,
+      "mode": "RGB",
+      "filesize": 16514,
+      "bg_color": [
+        255,
+        255,
+        255
+      ],
+      "num_objects": 3,
+      "needs_processing": true,
+      "reason": "detected 3 independent objects"
+    },
+    {
+      "filename": "02_大英规.png",
+      "path": "C:/Users/Administrator/Desktop/claude/dulizhan2/public/images/categories/02_大英规.png",
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "filesize": 18842,
+      "bg_color": [
+        255,
+        255,
+        255
+      ],
+      "num_objects": 4,
+      "needs_processing": true,
+      "reason": "detected 4 independent objects"
+    },
+    {
+      "filename": "03_小英规.png",
+      "path": "C:/Users/Administrator/Desktop/claude/dulizhan2/public/images/categories/03_小英规.png",
+      "width": 254,
+      "height": 254,
+      "mode": "RGB",
+      "filesize": 14792,
+      "bg_color": [
+        255,
+        255,
+        255
+      ],
+      "num_objects": 6,
+      "needs_processing": true,
+      "reason": "detected 6 independent objects"
+    },
+    {
+      "filename": "04_两脚美规.png",
+      "path": "C:/Users/Administrator/Desktop/claude/dulizhan2/public/images/categories/04_两脚美规.png",
+      "width": 265,
+      "height": 265,
+      "mode": "RGB",
+      "filesize": 18740,
+      "bg_color": [
+        255,
+        255,
+        255
+      ],
+      "num_objects": 5,
+      "needs_processing": true,
+      "reason": "detected 5 independent objects"
+    },
+    {
+      "filename": "05_三脚美规.png",
+      "path": "C:/Users/Administrator/Desktop/claude/dulizhan2/public/images/categories/05_三脚美规.png",
+      "width": 284,
+      "height": 284,
+      "mode": "RGB",
+      "filesize": 20223,
+      "bg_color": [
+        255,
+        255,
+        255
+      ],
+      "num_objects": 7,
+      "needs_processing": true,
+      "reason": "detected 7 independent objects"
+    },
+    {
+      "filename": "06_三脚澳规.png",
+      "path": "C:/Users/Administrator/Desktop/claude/dulizhan2/public/images/categories/06_三脚澳规.png",
+      "width": 286,
+      "height": 286,
+      "mode": "RGB",
+      "filesize": 20030,
+      "bg_color": [
+        255,
+        255,
+        255
+      ],
+      "num_objects": 7,
+      "needs_processing": true,
+      "reason": "detected 7 independent objects"
+    },
+    {
+      "filename": "07_泰国规.png",
+      "path": "C:/Users/Administrator/Desktop/claude/dulizhan2/public/images/categories/07_泰国规.png",
+      "width": 290,
+      "height": 290,
+      "mode": "RGB",
+      "filesize": 20087,
+      "bg_color": [
+        255,
+        255,
+        255
+      ],
+      "num_objects": 4,
+      "needs_processing": true,
+      "reason": "detected 4 independent objects"
+    },
+    {
+      "filename": "08_巴西规.png",
+      "path": "C:/Users/Administrator/Desktop/claude/dulizhan2/public/images/categories/08_巴西规.png",
+      "width": 282,
+      "height": 282,
+      "mode": "RGB",
+      "filesize": 18771,
+      "bg_color": [
+        255,
+        255,
+        255
+      ],
+      "num_objects": 4,
+      "needs_processing": true,
+      "reason": "detected 4 independent objects"
+    },
+    {
+      "filename": "09_国标中规两脚.png",
+      "path": "C:/Users/Administrator/Desktop/claude/dulizhan2/public/images/categories/09_国标中规两脚.png",
+      "width": 270,
+      "height": 270,
+      "mode": "RGB",
+      "filesize": 23673,
+      "bg_color": [
+        255,
+        255,
+        255
+      ],
+      "num_objects": 7,
+      "needs_processing": true,
+      "reason": "detected 7 independent objects"
+    },
+    {
+      "filename": "10_国标中规三脚.png",
+      "path": "C:/Users/Administrator/Desktop/claude/dulizhan2/public/images/categories/10_国标中规三脚.png",
+      "width": 253,
+      "height": 253,
+      "mode": "RGB",
+      "filesize": 19239,
+      "bg_color": [
+        255,
+        255,
+        255
+      ],
+      "num_objects": 9,
+      "needs_processing": true,
+      "reason": "detected 9 independent objects"
+    },
+    {
+      "filename": "11_印度规.png",
+      "path": "C:/Users/Administrator/Desktop/claude/dulizhan2/public/images/categories/11_印度规.png",
+      "width": 239,
+      "height": 239,
+      "mode": "RGB",
+      "filesize": 15251,
+      "bg_color": [
+        255,
+        255,
+        255
+      ],
+      "num_objects": 4,
+      "needs_processing": true,
+      "reason": "detected 4 independent objects"
+    },
+    {
+      "filename": "12_阿根廷规.png",
+      "path": "C:/Users/Administrator/Desktop/claude/dulizhan2/public/images/categories/12_阿根廷规.png",
+      "width": 268,
+      "height": 268,
+      "mode": "RGB",
+      "filesize": 19649,
+      "bg_color": [
+        255,
+        255,
+        255
+      ],
+      "num_objects": 5,
+      "needs_processing": true,
+      "reason": "detected 5 independent objects"
+    }
+  ],
+  "needs_processing_count": 12,
+  "processing_list": [
+    "01_欧规.png",
+    "02_大英规.png",
+    "03_小英规.png",
+    "04_两脚美规.png",
+    "05_三脚美规.png",
+    "06_三脚澳规.png",
+    "07_泰国规.png",
+    "08_巴西规.png",
+    "09_国标中规两脚.png",
+    "10_国标中规三脚.png",
+    "11_印度规.png",
+    "12_阿根廷规.png"
+  ]
+}

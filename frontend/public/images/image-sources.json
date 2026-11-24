@@ -1,0 +1,758 @@
+{
+  "categories": {
+    "cooling-fan": {
+      "label": "Cooling Fan",
+      "query": "cooling fan product photo",
+      "file": "/images/categories/cooling-fan.jpg",
+      "sourceUrl": "http://k.sinaimg.cn/n/sinakd20260305s/660/w640h820/20260305/55bc-281459bfd2c79bc79fbceec6250c5251.jpg/w700d1q75cms.jpg",
+      "title": "Cooling Fan"
+    },
+    "usb-fan": {
+      "label": "USB Fan",
+      "query": "USB desk fan product photo",
+      "file": "/images/categories/usb-fan.jpg",
+      "sourceUrl": "https://zhongces3.sina.com.cn/products/202002/4d517d1ba8c7a2f612f0cfad074640c9.jpg",
+      "title": "USB Fan"
+    },
+    "air-circulation-fan": {
+      "label": "air-circulation-fan",
+      "query": "air circulation fan",
+      "file": "/images/categories/air-circulation-fan.jpg",
+      "sourceUrl": null,
+      "title": "downloaded before source map was written"
+    },
+    "air-cooler-air-conditioner": {
+      "label": "air-cooler-air-conditioner",
+      "query": "air cooler air conditioner",
+      "file": "/images/categories/air-cooler-air-conditioner.jpg",
+      "sourceUrl": null,
+      "title": "downloaded before source map was written"
+    },
+    "air-curtain": {
+      "label": "air-curtain",
+      "query": "air curtain",
+      "file": "/images/categories/air-curtain.jpg",
+      "sourceUrl": null,
+      "title": "downloaded before source map was written"
+    },
+    "air-duct-fan": {
+      "label": "air-duct-fan",
+      "query": "air duct fan",
+      "file": "/images/categories/air-duct-fan.jpg",
+      "sourceUrl": null,
+      "title": "downloaded before source map was written"
+    },
+    "air-mover": {
+      "label": "air-mover",
+      "query": "air mover",
+      "file": "/images/categories/air-mover.jpg",
+      "sourceUrl": null,
+      "title": "downloaded before source map was written"
+    },
+    "air-purifier": {
+      "label": "air-purifier",
+      "query": "air purifier",
+      "file": "/images/categories/air-purifier.jpg",
+      "sourceUrl": null,
+      "title": "downloaded before source map was written"
+    },
+    "axial-flow-fan": {
+      "label": "axial-flow-fan",
+      "query": "axial flow fan",
+      "file": "/images/categories/axial-flow-fan.jpg",
+      "sourceUrl": null,
+      "title": "downloaded before source map was written"
+    },
+    "bullhorn-fan": {
+      "label": "bullhorn-fan",
+      "query": "bullhorn fan",
+      "file": "/images/categories/bullhorn-fan.jpg",
+      "sourceUrl": null,
+      "title": "downloaded before source map was written"
+    },
+    "carbon-crystal-electric-heater": {
+      "label": "carbon-crystal-electric-heater",
+      "query": "carbon crystal electric heater",
+      "file": "/images/categories/carbon-crystal-electric-heater.jpg",
+      "sourceUrl": null,
+      "title": "downloaded before source map was written"
+    },
+    "duct-fan": {
+      "label": "duct-fan",
+      "query": "duct fan",
+      "file": "/images/categories/duct-fan.jpg",
+      "sourceUrl": null,
+      "title": "downloaded before source map was written"
+    },
+    "exhaust-fan": {
+      "label": "exhaust-fan",
+      "query": "exhaust fan",
+      "file": "/images/categories/exhaust-fan.jpg",
+      "sourceUrl": null,
+      "title": "downloaded before source map was written"
+    },
+    "extractor-fan": {
+      "label": "extractor-fan",
+      "query": "extractor fan",
+      "file": "/images/categories/extractor-fan.jpg",
+      "sourceUrl": null,
+      "title": "downloaded before source map was written"
+    },
+    "floor-fan": {
+      "label": "floor-fan",
+      "query": "floor fan",
+      "file": "/images/categories/floor-fan.jpg",
+      "sourceUrl": null,
+      "title": "downloaded before source map was written"
+    },
+    "household-ceiling-fan": {
+      "label": "household-ceiling-fan",
+      "query": "household ceiling fan",
+      "file": "/images/categories/household-ceiling-fan.jpg",
+      "sourceUrl": null,
+      "title": "downloaded before source map was written"
+    },
+    "industrial-ceiling-fan": {
+      "label": "industrial-ceiling-fan",
+      "query": "industrial ceiling fan",
+      "file": "/images/categories/industrial-ceiling-fan.jpg",
+      "sourceUrl": null,
+      "title": "downloaded before source map was written"
+    },
+    "industrial-diesel-heater": {
+      "label": "industrial-diesel-heater",
+      "query": "industrial diesel heater",
+      "file": "/images/categories/industrial-diesel-heater.jpg",
+      "sourceUrl": null,
+      "title": "downloaded before source map was written"
+    },
+    "industrial-drum-fan": {
+      "label": "industrial-drum-fan",
+      "query": "industrial drum fan",
+      "file": "/images/categories/industrial-drum-fan.jpg",
+      "sourceUrl": null,
+      "title": "downloaded before source map was written"
+    },
+    "kitchen-air-conditioner": {
+      "label": "kitchen-air-conditioner",
+      "query": "kitchen air conditioner",
+      "file": "/images/categories/kitchen-air-conditioner.jpg",
+      "sourceUrl": null,
+      "title": "downloaded before source map was written"
+    },
+    "mini-fan": {
+      "label": "mini-fan",
+      "query": "mini fan",
+      "file": "/images/categories/mini-fan.jpg",
+      "sourceUrl": null,
+      "title": "downloaded before source map was written"
+    },
+    "mist-fan": {
+      "label": "mist-fan",
+      "query": "mist fan",
+      "file": "/images/categories/mist-fan.jpg",
+      "sourceUrl": null,
+      "title": "downloaded before source map was written"
+    },
+    "orbit-fan": {
+      "label": "orbit-fan",
+      "query": "orbit fan",
+      "file": "/images/categories/orbit-fan.jpg",
+      "sourceUrl": null,
+      "title": "downloaded before source map was written"
+    },
+    "portable-air-cooler-air-conditioner": {
+      "label": "portable-air-cooler-air-conditioner",
+      "query": "portable air cooler air conditioner",
+      "file": "/images/categories/portable-air-cooler-air-conditioner.jpg",
+      "sourceUrl": null,
+      "title": "downloaded before source map was written"
+    },
+    "solar-fan": {
+      "label": "solar-fan",
+      "query": "solar fan",
+      "file": "/images/categories/solar-fan.jpg",
+      "sourceUrl": null,
+      "title": "downloaded before source map was written"
+    },
+    "spray-fan": {
+      "label": "spray-fan",
+      "query": "spray fan",
+      "file": "/images/categories/spray-fan.jpg",
+      "sourceUrl": null,
+      "title": "downloaded before source map was written"
+    },
+    "stand-fan": {
+      "label": "stand-fan",
+      "query": "stand fan",
+      "file": "/images/categories/stand-fan.jpg",
+      "sourceUrl": null,
+      "title": "downloaded before source map was written"
+    },
+    "table-fan-box-fan": {
+      "label": "table-fan-box-fan",
+      "query": "table fan box fan",
+      "file": "/images/categories/table-fan-box-fan.jpg",
+      "sourceUrl": null,
+      "title": "downloaded before source map was written"
+    },
+    "wall-fan-2": {
+      "label": "wall-fan-2",
+      "query": "wall fan 2",
+      "file": "/images/categories/wall-fan-2.jpg",
+      "sourceUrl": null,
+      "title": "downloaded before source map was written"
+    },
+    "wall-fan": {
+      "label": "wall-fan",
+      "query": "wall fan",
+      "file": "/images/categories/wall-fan.jpg",
+      "sourceUrl": null,
+      "title": "downloaded before source map was written"
+    }
+  },
+  "products": {
+    "cooling-fan": [
+      {
+        "file": "/images/products/cooling-fan-1.jpg",
+        "sourceUrl": "http://www.bing.com/sa/simg/facebook_sharing_5.png",
+        "title": "Cooling Fan"
+      },
+      {
+        "file": "/images/products/cooling-fan-2.jpg",
+        "sourceUrl": "https://img.shetu66.com/2024/01/20/170571453502896081.jpg",
+        "title": "Cooling Fan"
+      },
+      {
+        "file": "/images/products/cooling-fan-3.jpg",
+        "sourceUrl": "https://c-ssl.duitang.com/uploads/item/201907/22/20190722130430_LY82h.jpeg",
+        "title": "Cooling Fan"
+      }
+    ],
+    "usb-fan": [
+      {
+        "file": "/images/products/usb-fan-1.jpg",
+        "sourceUrl": "https://zhongces3.sina.com.cn/products/202002/30502ff01571dc59b42cd13ce5d36629.jpg",
+        "title": "USB Fan"
+      },
+      {
+        "file": "/images/products/usb-fan-2.jpg",
+        "sourceUrl": "https://zhongces3.sina.com.cn/products/202002/264aa14523457b568f4b99110da9a343.jpg",
+        "title": "USB Fan"
+      },
+      {
+        "file": "/images/products/usb-fan-3.jpg",
+        "sourceUrl": "https://zhongces3.sina.com.cn/products/202002/911cb296bbcc1ca7542a6a7b755a54c0.jpg",
+        "title": "USB Fan"
+      }
+    ],
+    "air-circulation-fan": [
+      {
+        "file": "/images/products/air-circulation-fan-1.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/air-circulation-fan-2.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/air-circulation-fan-3.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      }
+    ],
+    "air-cooler-air-conditioner": [
+      {
+        "file": "/images/products/air-cooler-air-conditioner-1.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/air-cooler-air-conditioner-2.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/air-cooler-air-conditioner-3.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      }
+    ],
+    "air-curtain": [
+      {
+        "file": "/images/products/air-curtain-1.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/air-curtain-2.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/air-curtain-3.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      }
+    ],
+    "air-duct-fan": [
+      {
+        "file": "/images/products/air-duct-fan-1.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/air-duct-fan-2.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/air-duct-fan-3.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      }
+    ],
+    "air-mover": [
+      {
+        "file": "/images/products/air-mover-1.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/air-mover-2.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/air-mover-3.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      }
+    ],
+    "air-purifier": [
+      {
+        "file": "/images/products/air-purifier-1.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/air-purifier-2.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/air-purifier-3.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      }
+    ],
+    "axial-flow-fan": [
+      {
+        "file": "/images/products/axial-flow-fan-1.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/axial-flow-fan-2.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/axial-flow-fan-3.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      }
+    ],
+    "bullhorn-fan": [
+      {
+        "file": "/images/products/bullhorn-fan-1.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/bullhorn-fan-2.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/bullhorn-fan-3.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      }
+    ],
+    "carbon-crystal-electric-heater": [
+      {
+        "file": "/images/products/carbon-crystal-electric-heater-1.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/carbon-crystal-electric-heater-2.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/carbon-crystal-electric-heater-3.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      }
+    ],
+    "duct-fan": [
+      {
+        "file": "/images/products/duct-fan-1.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/duct-fan-2.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/duct-fan-3.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      }
+    ],
+    "exhaust-fan": [
+      {
+        "file": "/images/products/exhaust-fan-1.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/exhaust-fan-2.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/exhaust-fan-3.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      }
+    ],
+    "extractor-fan": [
+      {
+        "file": "/images/products/extractor-fan-1.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/extractor-fan-2.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/extractor-fan-3.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      }
+    ],
+    "floor-fan": [
+      {
+        "file": "/images/products/floor-fan-1.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/floor-fan-2.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/floor-fan-3.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      }
+    ],
+    "household-ceiling-fan": [
+      {
+        "file": "/images/products/household-ceiling-fan-1.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/household-ceiling-fan-2.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/household-ceiling-fan-3.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      }
+    ],
+    "industrial-ceiling-fan": [
+      {
+        "file": "/images/products/industrial-ceiling-fan-1.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/industrial-ceiling-fan-2.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/industrial-ceiling-fan-3.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      }
+    ],
+    "industrial-diesel-heater": [
+      {
+        "file": "/images/products/industrial-diesel-heater-1.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/industrial-diesel-heater-2.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/industrial-diesel-heater-3.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      }
+    ],
+    "industrial-drum-fan": [
+      {
+        "file": "/images/products/industrial-drum-fan-1.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/industrial-drum-fan-2.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/industrial-drum-fan-3.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      }
+    ],
+    "kitchen-air-conditioner": [
+      {
+        "file": "/images/products/kitchen-air-conditioner-1.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/kitchen-air-conditioner-2.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/kitchen-air-conditioner-3.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      }
+    ],
+    "mini-fan": [
+      {
+        "file": "/images/products/mini-fan-1.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/mini-fan-2.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/mini-fan-3.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      }
+    ],
+    "mist-fan": [
+      {
+        "file": "/images/products/mist-fan-1.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/mist-fan-2.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/mist-fan-3.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      }
+    ],
+    "orbit-fan": [
+      {
+        "file": "/images/products/orbit-fan-1.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/orbit-fan-2.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/orbit-fan-3.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      }
+    ],
+    "portable-air-cooler-air-conditioner": [
+      {
+        "file": "/images/products/portable-air-cooler-air-conditioner-1.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/portable-air-cooler-air-conditioner-2.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/portable-air-cooler-air-conditioner-3.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      }
+    ],
+    "solar-fan": [
+      {
+        "file": "/images/products/solar-fan-1.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/solar-fan-2.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/solar-fan-3.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      }
+    ],
+    "spray-fan": [
+      {
+        "file": "/images/products/spray-fan-1.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/spray-fan-2.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/spray-fan-3.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      }
+    ],
+    "stand-fan": [
+      {
+        "file": "/images/products/stand-fan-1.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/stand-fan-2.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/stand-fan-3.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      }
+    ],
+    "table-fan-box-fan": [
+      {
+        "file": "/images/products/table-fan-box-fan-1.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/table-fan-box-fan-2.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/table-fan-box-fan-3.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      }
+    ],
+    "wall-fan": [
+      {
+        "file": "/images/products/wall-fan-1.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/wall-fan-2.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/wall-fan-3.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      }
+    ],
+    "wall-fan-2": [
+      {
+        "file": "/images/products/wall-fan-2-1.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/wall-fan-2-2.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      },
+      {
+        "file": "/images/products/wall-fan-2-3.jpg",
+        "sourceUrl": null,
+        "title": "downloaded before source map was written"
+      }
+    ]
+  },
+  "banners": {
+    "hero-banner.webp": {
+      "query": "industrial ventilation fan product showroom",
+      "file": "/images/hero-banner.webp",
+      "sourceUrl": "https://k.sinaimg.cn/n/english/transform/128/w550h378/20211227/6b5c-972b9137e48269ac856846f38847b86d.jpg/w700h350z1l10t104f8.jpg",
+      "title": "hero-banner.webp"
+    },
+    "banner-1.webp": {
+      "query": "commercial air curtain fan product installation",
+      "file": "/images/banner-1.webp",
+      "sourceUrl": "http://img.netbian.com/file/2025/0619/small101735Fi6wh1750299455.jpg",
+      "title": "banner-1.webp"
+    },
+    "banner-2.webp": {
+      "query": "portable air conditioner air cooler product lineup",
+      "file": "/images/banner-2.webp",
+      "sourceUrl": "https://xiazai-fd.zol-img.com.cn/g7/M00/07/04/ChMkLGRwLkmIKZY5AAC-qU1Y0zQAAQcFAI0wXAAAL7B645.jpg",
+      "title": "banner-2.webp"
+    },
+    "banner-3.webp": {
+      "query": "industrial fan manufacturing factory product display",
+      "file": "/images/banner-3.webp",
+      "sourceUrl": "https://news.cgtn.com/news/2023-09-27/China-s-industrial-profits-see-robust-rebound-up-17-2-pct-in-August-1nriIPO8SaY/img/a5ab2a2da5f647328c4ead3dc44b7404/a5ab2a2da5f647328c4ead3dc44b7404-750.jpeg",
+      "title": "banner-3.webp"
+    },
+    "banner-4.webp": {
+      "query": "industrial ceiling fan warehouse installation",
+      "file": "/images/banner-4.webp",
+      "sourceUrl": "https://video.cgtn.com/news/2022-10-19/Key-hallmarks-of-Chinese-industrial-manufacturing-1efRBqwHxm0/video/d75de5a0faff40f68ff64b94aa0f96ca/d75de5a0faff40f68ff64b94aa0f96ca-1920.jpg",
+      "title": "banner-4.webp"
+    }
+  }
+}

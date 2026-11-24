@@ -1,0 +1,581 @@
+{
+  "verified_at": "2026-03-12",
+  "verification_1_file_integrity": [
+    {
+      "filename": "01_欧规.png",
+      "checks": {
+        "exists": true,
+        "filesize": 12599,
+        "size_positive": true,
+        "pillow_open": true,
+        "format": "PNG",
+        "format_correct": true,
+        "dimensions": [
+          257,
+          257
+        ],
+        "original_dimensions": [
+          257,
+          257
+        ],
+        "dimensions_match": true,
+        "size_ratio_to_original": 0.763,
+        "size_reasonable": true
+      },
+      "passed": true
+    },
+    {
+      "filename": "02_大英规.png",
+      "checks": {
+        "exists": true,
+        "filesize": 14141,
+        "size_positive": true,
+        "pillow_open": true,
+        "format": "PNG",
+        "format_correct": true,
+        "dimensions": [
+          256,
+          256
+        ],
+        "original_dimensions": [
+          256,
+          256
+        ],
+        "dimensions_match": true,
+        "size_ratio_to_original": 0.751,
+        "size_reasonable": true
+      },
+      "passed": true
+    },
+    {
+      "filename": "03_小英规.png",
+      "checks": {
+        "exists": true,
+        "filesize": 9992,
+        "size_positive": true,
+        "pillow_open": true,
+        "format": "PNG",
+        "format_correct": true,
+        "dimensions": [
+          254,
+          254
+        ],
+        "original_dimensions": [
+          254,
+          254
+        ],
+        "dimensions_match": true,
+        "size_ratio_to_original": 0.676,
+        "size_reasonable": true
+      },
+      "passed": true
+    },
+    {
+      "filename": "04_两脚美规.png",
+      "checks": {
+        "exists": true,
+        "filesize": 11417,
+        "size_positive": true,
+        "pillow_open": true,
+        "format": "PNG",
+        "format_correct": true,
+        "dimensions": [
+          265,
+          265
+        ],
+        "original_dimensions": [
+          265,
+          265
+        ],
+        "dimensions_match": true,
+        "size_ratio_to_original": 0.609,
+        "size_reasonable": true
+      },
+      "passed": true
+    },
+    {
+      "filename": "05_三脚美规.png",
+      "checks": {
+        "exists": true,
+        "filesize": 13359,
+        "size_positive": true,
+        "pillow_open": true,
+        "format": "PNG",
+        "format_correct": true,
+        "dimensions": [
+          284,
+          284
+        ],
+        "original_dimensions": [
+          284,
+          284
+        ],
+        "dimensions_match": true,
+        "size_ratio_to_original": 0.661,
+        "size_reasonable": true
+      },
+      "passed": true
+    },
+    {
+      "filename": "06_三脚澳规.png",
+      "checks": {
+        "exists": true,
+        "filesize": 14064,
+        "size_positive": true,
+        "pillow_open": true,
+        "format": "PNG",
+        "format_correct": true,
+        "dimensions": [
+          286,
+          286
+        ],
+        "original_dimensions": [
+          286,
+          286
+        ],
+        "dimensions_match": true,
+        "size_ratio_to_original": 0.702,
+        "size_reasonable": true
+      },
+      "passed": true
+    },
+    {
+      "filename": "07_泰国规.png",
+      "checks": {
+        "exists": true,
+        "filesize": 16700,
+        "size_positive": true,
+        "pillow_open": true,
+        "format": "PNG",
+        "format_correct": true,
+        "dimensions": [
+          290,
+          290
+        ],
+        "original_dimensions": [
+          290,
+          290
+        ],
+        "dimensions_match": true,
+        "size_ratio_to_original": 0.831,
+        "size_reasonable": true
+      },
+      "passed": true
+    },
+    {
+      "filename": "08_巴西规.png",
+      "checks": {
+        "exists": true,
+        "filesize": 14782,
+        "size_positive": true,
+        "pillow_open": true,
+        "format": "PNG",
+        "format_correct": true,
+        "dimensions": [
+          282,
+          282
+        ],
+        "original_dimensions": [
+          282,
+          282
+        ],
+        "dimensions_match": true,
+        "size_ratio_to_original": 0.787,
+        "size_reasonable": true
+      },
+      "passed": true
+    },
+    {
+      "filename": "09_国标中规两脚.png",
+      "checks": {
+        "exists": true,
+        "filesize": 11513,
+        "size_positive": true,
+        "pillow_open": true,
+        "format": "PNG",
+        "format_correct": true,
+        "dimensions": [
+          270,
+          270
+        ],
+        "original_dimensions": [
+          270,
+          270
+        ],
+        "dimensions_match": true,
+        "size_ratio_to_original": 0.486,
+        "size_reasonable": true
+      },
+      "passed": true
+    },
+    {
+      "filename": "10_国标中规三脚.png",
+      "checks": {
+        "exists": true,
+        "filesize": 9294,
+        "size_positive": true,
+        "pillow_open": true,
+        "format": "PNG",
+        "format_correct": true,
+        "dimensions": [
+          253,
+          253
+        ],
+        "original_dimensions": [
+          253,
+          253
+        ],
+        "dimensions_match": true,
+        "size_ratio_to_original": 0.483,
+        "size_reasonable": true
+      },
+      "passed": true
+    },
+    {
+      "filename": "11_印度规.png",
+      "checks": {
+        "exists": true,
+        "filesize": 10148,
+        "size_positive": true,
+        "pillow_open": true,
+        "format": "PNG",
+        "format_correct": true,
+        "dimensions": [
+          239,
+          239
+        ],
+        "original_dimensions": [
+          239,
+          239
+        ],
+        "dimensions_match": true,
+        "size_ratio_to_original": 0.665,
+        "size_reasonable": true
+      },
+      "passed": true
+    },
+    {
+      "filename": "12_阿根廷规.png",
+      "checks": {
+        "exists": true,
+        "filesize": 12699,
+        "size_positive": true,
+        "pillow_open": true,
+        "format": "PNG",
+        "format_correct": true,
+        "dimensions": [
+          268,
+          268
+        ],
+        "original_dimensions": [
+          268,
+          268
+        ],
+        "dimensions_match": true,
+        "size_ratio_to_original": 0.646,
+        "size_reasonable": true
+      },
+      "passed": true
+    }
+  ],
+  "verification_2_content_comparison": [
+    {
+      "filename": "01_欧规.png",
+      "checks": {
+        "total_pixels": 66049,
+        "non_white_pixels": 6825,
+        "significant_components": 2,
+        "component_sizes_top5": [
+          6661,
+          52,
+          42,
+          31,
+          7
+        ],
+        "secondary_ratio": 0.0078,
+        "single_main_object": true,
+        "histogram_correlation": 0.9204,
+        "mean_color_difference": 4.91,
+        "pixel_count_ratio": 0.962,
+        "content_preserved": true
+      },
+      "passed": true
+    },
+    {
+      "filename": "02_大英规.png",
+      "checks": {
+        "total_pixels": 65536,
+        "non_white_pixels": 8538,
+        "significant_components": 1,
+        "component_sizes_top5": [
+          8523,
+          8,
+          4,
+          2,
+          1
+        ],
+        "single_main_object": true,
+        "histogram_correlation": 0.9534,
+        "mean_color_difference": 5.86,
+        "pixel_count_ratio": 1.236,
+        "content_preserved": true
+      },
+      "passed": true
+    },
+    {
+      "filename": "03_小英规.png",
+      "checks": {
+        "total_pixels": 64516,
+        "non_white_pixels": 8133,
+        "significant_components": 1,
+        "component_sizes_top5": [
+          8082,
+          32,
+          19
+        ],
+        "single_main_object": true,
+        "histogram_correlation": 0.9772,
+        "mean_color_difference": 2.96,
+        "pixel_count_ratio": 1.31,
+        "content_preserved": true
+      },
+      "passed": true
+    },
+    {
+      "filename": "04_两脚美规.png",
+      "checks": {
+        "total_pixels": 70225,
+        "non_white_pixels": 23041,
+        "significant_components": 1,
+        "component_sizes_top5": [
+          23041
+        ],
+        "single_main_object": true,
+        "histogram_correlation": 0.8394,
+        "mean_color_difference": 8.2,
+        "pixel_count_ratio": 2.953,
+        "content_preserved": true
+      },
+      "passed": true
+    },
+    {
+      "filename": "05_三脚美规.png",
+      "checks": {
+        "total_pixels": 80656,
+        "non_white_pixels": 6822,
+        "significant_components": 1,
+        "component_sizes_top5": [
+          6822
+        ],
+        "single_main_object": true,
+        "histogram_correlation": 0.7918,
+        "mean_color_difference": 9.25,
+        "pixel_count_ratio": 0.969,
+        "content_preserved": true
+      },
+      "passed": true
+    },
+    {
+      "filename": "06_三脚澳规.png",
+      "checks": {
+        "total_pixels": 81796,
+        "non_white_pixels": 7662,
+        "significant_components": 1,
+        "component_sizes_top5": [
+          7624,
+          27,
+          11
+        ],
+        "single_main_object": true,
+        "histogram_correlation": 0.9585,
+        "mean_color_difference": 4.56,
+        "pixel_count_ratio": 1.326,
+        "content_preserved": true
+      },
+      "passed": true
+    },
+    {
+      "filename": "07_泰国规.png",
+      "checks": {
+        "total_pixels": 84100,
+        "non_white_pixels": 8002,
+        "significant_components": 1,
+        "component_sizes_top5": [
+          8001,
+          1
+        ],
+        "single_main_object": true,
+        "histogram_correlation": 0.9762,
+        "mean_color_difference": 3.75,
+        "pixel_count_ratio": 1.343,
+        "content_preserved": true
+      },
+      "passed": true
+    },
+    {
+      "filename": "08_巴西规.png",
+      "checks": {
+        "total_pixels": 79524,
+        "non_white_pixels": 5828,
+        "significant_components": 1,
+        "component_sizes_top5": [
+          5827,
+          1
+        ],
+        "single_main_object": true,
+        "histogram_correlation": 0.9784,
+        "mean_color_difference": 3.16,
+        "pixel_count_ratio": 1.177,
+        "content_preserved": true
+      },
+      "passed": true
+    },
+    {
+      "filename": "09_国标中规两脚.png",
+      "checks": {
+        "total_pixels": 72900,
+        "non_white_pixels": 6338,
+        "significant_components": 2,
+        "component_sizes_top5": [
+          6224,
+          75,
+          26,
+          8,
+          4
+        ],
+        "secondary_ratio": 0.0121,
+        "single_main_object": true,
+        "histogram_correlation": 0.9457,
+        "mean_color_difference": 4.7,
+        "pixel_count_ratio": 1.02,
+        "content_preserved": true
+      },
+      "passed": true
+    },
+    {
+      "filename": "10_国标中规三脚.png",
+      "checks": {
+        "total_pixels": 64009,
+        "non_white_pixels": 7309,
+        "significant_components": 1,
+        "component_sizes_top5": [
+          7306,
+          3
+        ],
+        "single_main_object": true,
+        "histogram_correlation": 0.9646,
+        "mean_color_difference": 3.3,
+        "pixel_count_ratio": 1.189,
+        "content_preserved": true
+      },
+      "passed": true
+    },
+    {
+      "filename": "11_印度规.png",
+      "checks": {
+        "total_pixels": 57121,
+        "non_white_pixels": 7188,
+        "significant_components": 3,
+        "component_sizes_top5": [
+          7024,
+          68,
+          63,
+          31,
+          2
+        ],
+        "secondary_ratio": 0.0097,
+        "single_main_object": true,
+        "histogram_correlation": 0.9819,
+        "mean_color_difference": 2.16,
+        "pixel_count_ratio": 1.136,
+        "content_preserved": true
+      },
+      "passed": true
+    },
+    {
+      "filename": "12_阿根廷规.png",
+      "checks": {
+        "total_pixels": 71824,
+        "non_white_pixels": 7394,
+        "significant_components": 1,
+        "component_sizes_top5": [
+          7358,
+          36
+        ],
+        "single_main_object": true,
+        "histogram_correlation": 0.9624,
+        "mean_color_difference": 3.71,
+        "pixel_count_ratio": 1.361,
+        "content_preserved": true
+      },
+      "passed": true
+    }
+  ],
+  "verification_3_code_references": {
+    "files_checked": [
+      "C:/Users/Administrator/Desktop/claude/dulizhan2/src/app/api/categories/route.ts",
+      "C:/Users/Administrator/Desktop/claude/dulizhan2/src/app/[locale]/page.tsx",
+      "C:/Users/Administrator/Desktop/claude/dulizhan2/src/app/[locale]/admin/layout.tsx",
+      "C:/Users/Administrator/Desktop/claude/dulizhan2/src/app/[locale]/admin/categories/page.tsx",
+      "C:/Users/Administrator/Desktop/claude/dulizhan2/src/app/[locale]/faq/page.tsx",
+      "C:/Users/Administrator/Desktop/claude/dulizhan2/src/app/[locale]/shop/page.tsx",
+      "C:/Users/Administrator/Desktop/claude/dulizhan2/src/components/shop/CategoryGrid.tsx",
+      "C:/Users/Administrator/Desktop/claude/dulizhan2/src/config/site.ts"
+    ],
+    "references_found": [
+      {
+        "file": "C:/Users/Administrator/Desktop/claude/dulizhan2/src/components/shop/CategoryGrid.tsx",
+        "pattern": "category image reference"
+      }
+    ],
+    "all_filenames_unchanged": true,
+    "passed": true,
+    "processed_filenames": [
+      "01_欧规.png",
+      "02_大英规.png",
+      "03_小英规.png",
+      "04_两脚美规.png",
+      "05_三脚美规.png",
+      "06_三脚澳规.png",
+      "07_泰国规.png",
+      "08_巴西规.png",
+      "09_国标中规两脚.png",
+      "10_国标中规三脚.png",
+      "11_印度规.png",
+      "12_阿根廷规.png"
+    ],
+    "backup_filenames": [
+      "01_欧规.png",
+      "02_大英规.png",
+      "03_小英规.png",
+      "04_两脚美规.png",
+      "05_三脚美规.png",
+      "06_三脚澳规.png",
+      "07_泰国规.png",
+      "08_巴西规.png",
+      "09_国标中规两脚.png",
+      "10_国标中规三脚.png",
+      "11_印度规.png",
+      "12_阿根廷规.png"
+    ],
+    "filenames_match": true
+  },
+  "summary": {
+    "verification_1": {
+      "passed": 12,
+      "failed": 0,
+      "total": 12,
+      "status": "PASS"
+    },
+    "verification_2": {
+      "passed": 12,
+      "failed": 0,
+      "total": 12,
+      "status": "PASS"
+    },
+    "verification_3": {
+      "status": "PASS"
+    },
+    "overall": "PASS"
+  }
+}

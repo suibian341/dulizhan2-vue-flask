@@ -1,0 +1,141 @@
+{
+  "processed_at": "2026-03-12",
+  "results": [
+    {
+      "filename": "01_欧规.png",
+      "status": "success",
+      "original_objects": 5,
+      "kept_object_area": 5809,
+      "new_size": [
+        257,
+        257
+      ]
+    },
+    {
+      "filename": "02_大英规.png",
+      "status": "success",
+      "original_objects": 23,
+      "kept_object_area": 6091,
+      "new_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "filename": "03_小英规.png",
+      "status": "success",
+      "original_objects": 17,
+      "kept_object_area": 5416,
+      "new_size": [
+        254,
+        254
+      ]
+    },
+    {
+      "filename": "04_两脚美规.png",
+      "status": "success",
+      "original_objects": 11,
+      "kept_object_area": 3977,
+      "new_size": [
+        265,
+        265
+      ]
+    },
+    {
+      "filename": "05_三脚美规.png",
+      "status": "success",
+      "original_objects": 8,
+      "kept_object_area": 5316,
+      "new_size": [
+        284,
+        284
+      ]
+    },
+    {
+      "filename": "06_三脚澳规.png",
+      "status": "success",
+      "original_objects": 25,
+      "kept_object_area": 4797,
+      "new_size": [
+        286,
+        286
+      ]
+    },
+    {
+      "filename": "07_泰国规.png",
+      "status": "success",
+      "original_objects": 7,
+      "kept_object_area": 5284,
+      "new_size": [
+        290,
+        290
+      ]
+    },
+    {
+      "filename": "08_巴西规.png",
+      "status": "success",
+      "original_objects": 7,
+      "kept_object_area": 4232,
+      "new_size": [
+        282,
+        282
+      ]
+    },
+    {
+      "filename": "09_国标中规两脚.png",
+      "status": "success",
+      "original_objects": 11,
+      "kept_object_area": 5063,
+      "new_size": [
+        270,
+        270
+      ]
+    },
+    {
+      "filename": "10_国标中规三脚.png",
+      "status": "success",
+      "original_objects": 21,
+      "kept_object_area": 5316,
+      "new_size": [
+        253,
+        253
+      ]
+    },
+    {
+      "filename": "11_印度规.png",
+      "status": "success",
+      "original_objects": 7,
+      "kept_object_area": 5558,
+      "new_size": [
+        239,
+        239
+      ]
+    },
+    {
+      "filename": "12_阿根廷规.png",
+      "status": "success",
+      "original_objects": 21,
+      "kept_object_area": 4532,
+      "new_size": [
+        268,
+        268
+      ]
+    }
+  ],
+  "success_list": [
+    "01_欧规.png",
+    "02_大英规.png",
+    "03_小英规.png",
+    "04_两脚美规.png",
+    "05_三脚美规.png",
+    "06_三脚澳规.png",
+    "07_泰国规.png",
+    "08_巴西规.png",
+    "09_国标中规两脚.png",
+    "10_国标中规三脚.png",
+    "11_印度规.png",
+    "12_阿根廷规.png"
+  ],
+  "failed_list": [],
+  "skipped_list": []
+}

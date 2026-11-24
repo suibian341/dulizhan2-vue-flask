@@ -1,0 +1,1716 @@
+const defaultSpecTemplate = [
+  {
+    "label": {
+      "en": "Model No.",
+      "zh": "产品型号"
+    },
+    "note": {
+      "en": "Basic Information",
+      "zh": "基础信息"
+    },
+    "options": [
+      {
+        "en": "To be provided",
+        "zh": "待补充"
+      },
+      {
+        "en": "To be confirmed",
+        "zh": "待确认"
+      },
+      {
+        "en": "Included",
+        "zh": "支持"
+      },
+      {
+        "en": "Optional",
+        "zh": "可选"
+      },
+      {
+        "en": "Customizable",
+        "zh": "可定制"
+      },
+      {
+        "en": "Not included",
+        "zh": "不支持"
+      },
+      {
+        "en": "203MS",
+        "zh": "203MS"
+      }
+    ],
+    "section": {
+      "en": "Basic Information",
+      "zh": "基础信息"
+    },
+    "value": {
+      "en": "203MS",
+      "zh": "203MS"
+    }
+  },
+  {
+    "label": {
+      "en": "Product Type",
+      "zh": "产品类型"
+    },
+    "note": {
+      "en": "Basic Information",
+      "zh": "基础信息"
+    },
+    "options": [
+      {
+        "en": "To be provided",
+        "zh": "待补充"
+      },
+      {
+        "en": "To be confirmed",
+        "zh": "待确认"
+      },
+      {
+        "en": "Included",
+        "zh": "支持"
+      },
+      {
+        "en": "Optional",
+        "zh": "可选"
+      },
+      {
+        "en": "Customizable",
+        "zh": "可定制"
+      },
+      {
+        "en": "Not included",
+        "zh": "不支持"
+      },
+      {
+        "en": "Multi-Outlet Power Strip",
+        "zh": "多位电源排插"
+      }
+    ],
+    "section": {
+      "en": "Basic Information",
+      "zh": "基础信息"
+    },
+    "value": {
+      "en": "Multi-Outlet Power Strip",
+      "zh": "多位电源排插"
+    }
+  },
+  {
+    "label": {
+      "en": "Country of Origin",
+      "zh": "产地"
+    },
+    "note": {
+      "en": "Basic Information",
+      "zh": "基础信息"
+    },
+    "options": [
+      {
+        "en": "To be provided",
+        "zh": "待补充"
+      },
+      {
+        "en": "To be confirmed",
+        "zh": "待确认"
+      },
+      {
+        "en": "Included",
+        "zh": "支持"
+      },
+      {
+        "en": "Optional",
+        "zh": "可选"
+      },
+      {
+        "en": "Customizable",
+        "zh": "可定制"
+      },
+      {
+        "en": "Not included",
+        "zh": "不支持"
+      },
+      {
+        "en": "China",
+        "zh": "中国"
+      }
+    ],
+    "section": {
+      "en": "Basic Information",
+      "zh": "基础信息"
+    },
+    "value": {
+      "en": "China",
+      "zh": "中国"
+    }
+  },
+  {
+    "label": {
+      "en": "Brand",
+      "zh": "品牌"
+    },
+    "note": {
+      "en": "Basic Information",
+      "zh": "基础信息"
+    },
+    "options": [
+      {
+        "en": "To be provided",
+        "zh": "待补充"
+      },
+      {
+        "en": "To be confirmed",
+        "zh": "待确认"
+      },
+      {
+        "en": "Included",
+        "zh": "支持"
+      },
+      {
+        "en": "Optional",
+        "zh": "可选"
+      },
+      {
+        "en": "Customizable",
+        "zh": "可定制"
+      },
+      {
+        "en": "Not included",
+        "zh": "不支持"
+      },
+      {
+        "en": "Own Brand / OEM / Neutral Brand, to be confirmed",
+        "zh": "自有品牌 / OEM / 中性品牌，待确认"
+      }
+    ],
+    "section": {
+      "en": "Basic Information",
+      "zh": "基础信息"
+    },
+    "value": {
+      "en": "Own Brand / OEM / Neutral Brand, to be confirmed",
+      "zh": "自有品牌 / OEM / 中性品牌，待确认"
+    }
+  },
+  {
+    "label": {
+      "en": "Rated Voltage",
+      "zh": "额定电压"
+    },
+    "note": {
+      "en": "Electrical Ratings",
+      "zh": "电气参数"
+    },
+    "options": [
+      {
+        "en": "To be provided",
+        "zh": "待补充"
+      },
+      {
+        "en": "To be confirmed",
+        "zh": "待确认"
+      },
+      {
+        "en": "Included",
+        "zh": "支持"
+      },
+      {
+        "en": "Optional",
+        "zh": "可选"
+      },
+      {
+        "en": "Customizable",
+        "zh": "可定制"
+      },
+      {
+        "en": "Not included",
+        "zh": "不支持"
+      },
+      {
+        "en": "AC 220V-250V",
+        "zh": "AC 220V-250V"
+      }
+    ],
+    "section": {
+      "en": "Electrical Ratings",
+      "zh": "电气参数"
+    },
+    "value": {
+      "en": "AC 220V-250V",
+      "zh": "AC 220V-250V"
+    }
+  },
+  {
+    "label": {
+      "en": "Rated Current",
+      "zh": "额定电流"
+    },
+    "note": {
+      "en": "Electrical Ratings",
+      "zh": "电气参数"
+    },
+    "options": [
+      {
+        "en": "To be provided",
+        "zh": "待补充"
+      },
+      {
+        "en": "To be confirmed",
+        "zh": "待确认"
+      },
+      {
+        "en": "Included",
+        "zh": "支持"
+      },
+      {
+        "en": "Optional",
+        "zh": "可选"
+      },
+      {
+        "en": "Customizable",
+        "zh": "可定制"
+      },
+      {
+        "en": "Not included",
+        "zh": "不支持"
+      },
+      {
+        "en": "10A",
+        "zh": "10A"
+      }
+    ],
+    "section": {
+      "en": "Electrical Ratings",
+      "zh": "电气参数"
+    },
+    "value": {
+      "en": "10A",
+      "zh": "10A"
+    }
+  },
+  {
+    "label": {
+      "en": "Maximum Power",
+      "zh": "最大功率"
+    },
+    "note": {
+      "en": "Electrical Ratings",
+      "zh": "电气参数"
+    },
+    "options": [
+      {
+        "en": "To be provided",
+        "zh": "待补充"
+      },
+      {
+        "en": "To be confirmed",
+        "zh": "待确认"
+      },
+      {
+        "en": "Included",
+        "zh": "支持"
+      },
+      {
+        "en": "Optional",
+        "zh": "可选"
+      },
+      {
+        "en": "Customizable",
+        "zh": "可定制"
+      },
+      {
+        "en": "Not included",
+        "zh": "不支持"
+      },
+      {
+        "en": "2500W",
+        "zh": "2500W"
+      }
+    ],
+    "section": {
+      "en": "Electrical Ratings",
+      "zh": "电气参数"
+    },
+    "value": {
+      "en": "2500W",
+      "zh": "2500W"
+    }
+  },
+  {
+    "label": {
+      "en": "Rated Frequency",
+      "zh": "额定频率"
+    },
+    "note": {
+      "en": "Electrical Ratings",
+      "zh": "电气参数"
+    },
+    "options": [
+      {
+        "en": "50/60Hz",
+        "zh": "50/60Hz"
+      },
+      {
+        "en": "To be provided",
+        "zh": "待补充"
+      }
+    ],
+    "section": {
+      "en": "Electrical Ratings",
+      "zh": "电气参数"
+    },
+    "value": {
+      "en": "To be provided",
+      "zh": "待补充"
+    }
+  },
+  {
+    "label": {
+      "en": "Housing Material",
+      "zh": "外壳材质"
+    },
+    "note": {
+      "en": "Materials & Construction",
+      "zh": "材料结构"
+    },
+    "options": [
+      {
+        "en": "To be provided",
+        "zh": "待补充"
+      },
+      {
+        "en": "To be confirmed",
+        "zh": "待确认"
+      },
+      {
+        "en": "Included",
+        "zh": "支持"
+      },
+      {
+        "en": "Optional",
+        "zh": "可选"
+      },
+      {
+        "en": "Customizable",
+        "zh": "可定制"
+      },
+      {
+        "en": "Not included",
+        "zh": "不支持"
+      },
+      {
+        "en": "Flame-Retardant PP",
+        "zh": "阻燃PP"
+      }
+    ],
+    "section": {
+      "en": "Materials & Construction",
+      "zh": "材料结构"
+    },
+    "value": {
+      "en": "Flame-Retardant PP",
+      "zh": "阻燃PP"
+    }
+  },
+  {
+    "label": {
+      "en": "Conductive Parts",
+      "zh": "导电件材质"
+    },
+    "note": {
+      "en": "Materials & Construction",
+      "zh": "材料结构"
+    },
+    "options": [
+      {
+        "en": "To be provided",
+        "zh": "待补充"
+      },
+      {
+        "en": "To be confirmed",
+        "zh": "待确认"
+      },
+      {
+        "en": "Included",
+        "zh": "支持"
+      },
+      {
+        "en": "Optional",
+        "zh": "可选"
+      },
+      {
+        "en": "Customizable",
+        "zh": "可定制"
+      },
+      {
+        "en": "Not included",
+        "zh": "不支持"
+      },
+      {
+        "en": "Full Copper",
+        "zh": "全铜"
+      }
+    ],
+    "section": {
+      "en": "Materials & Construction",
+      "zh": "材料结构"
+    },
+    "value": {
+      "en": "Full Copper",
+      "zh": "全铜"
+    }
+  },
+  {
+    "label": {
+      "en": "Main Construction",
+      "zh": "整体材料"
+    },
+    "note": {
+      "en": "Materials & Construction",
+      "zh": "材料结构"
+    },
+    "options": [
+      {
+        "en": "To be provided",
+        "zh": "待补充"
+      },
+      {
+        "en": "To be confirmed",
+        "zh": "待确认"
+      },
+      {
+        "en": "Included",
+        "zh": "支持"
+      },
+      {
+        "en": "Optional",
+        "zh": "可选"
+      },
+      {
+        "en": "Customizable",
+        "zh": "可定制"
+      },
+      {
+        "en": "Not included",
+        "zh": "不支持"
+      },
+      {
+        "en": "Flame-Retardant PP Housing + Full-Copper Conductive Parts",
+        "zh": "阻燃PP外壳 + 全铜导电件"
+      }
+    ],
+    "section": {
+      "en": "Materials & Construction",
+      "zh": "材料结构"
+    },
+    "value": {
+      "en": "Flame-Retardant PP Housing + Full-Copper Conductive Parts",
+      "zh": "阻燃PP外壳 + 全铜导电件"
+    }
+  },
+  {
+    "label": {
+      "en": "Flame-Retardant Rating",
+      "zh": "阻燃等级"
+    },
+    "note": {
+      "en": "Materials & Construction",
+      "zh": "材料结构"
+    },
+    "options": [
+      {
+        "en": "V-0",
+        "zh": "V-0"
+      },
+      {
+        "en": "V-1",
+        "zh": "V-1"
+      },
+      {
+        "en": "V-2",
+        "zh": "V-2"
+      },
+      {
+        "en": "To be provided",
+        "zh": "待补充"
+      }
+    ],
+    "section": {
+      "en": "Materials & Construction",
+      "zh": "材料结构"
+    },
+    "value": {
+      "en": "To be provided",
+      "zh": "待补充"
+    }
+  },
+  {
+    "label": {
+      "en": "Power Switch",
+      "zh": "总控开关"
+    },
+    "note": {
+      "en": "Safety Features",
+      "zh": "安全功能"
+    },
+    "options": [
+      {
+        "en": "Included",
+        "zh": "支持"
+      },
+      {
+        "en": "Optional",
+        "zh": "可选"
+      },
+      {
+        "en": "Not included",
+        "zh": "不支持"
+      }
+    ],
+    "section": {
+      "en": "Safety Features",
+      "zh": "安全功能"
+    },
+    "value": {
+      "en": "Included",
+      "zh": "支持"
+    }
+  },
+  {
+    "label": {
+      "en": "Child Safety Shutters",
+      "zh": "儿童安全保护门"
+    },
+    "note": {
+      "en": "Safety Features",
+      "zh": "安全功能"
+    },
+    "options": [
+      {
+        "en": "Included",
+        "zh": "支持"
+      },
+      {
+        "en": "Optional",
+        "zh": "可选"
+      },
+      {
+        "en": "Not included",
+        "zh": "不支持"
+      }
+    ],
+    "section": {
+      "en": "Safety Features",
+      "zh": "安全功能"
+    },
+    "value": {
+      "en": "Included",
+      "zh": "支持"
+    }
+  },
+  {
+    "label": {
+      "en": "Overload Protector",
+      "zh": "过载保护器"
+    },
+    "note": {
+      "en": "Safety Features",
+      "zh": "安全功能"
+    },
+    "options": [
+      {
+        "en": "Included",
+        "zh": "支持"
+      },
+      {
+        "en": "Optional",
+        "zh": "可选"
+      },
+      {
+        "en": "Not included",
+        "zh": "不支持"
+      }
+    ],
+    "section": {
+      "en": "Safety Features",
+      "zh": "安全功能"
+    },
+    "value": {
+      "en": "Included",
+      "zh": "支持"
+    }
+  },
+  {
+    "label": {
+      "en": "Surge Protection",
+      "zh": "浪涌保护器"
+    },
+    "note": {
+      "en": "Safety Features",
+      "zh": "安全功能"
+    },
+    "options": [
+      {
+        "en": "Included",
+        "zh": "支持"
+      },
+      {
+        "en": "Optional",
+        "zh": "可选"
+      },
+      {
+        "en": "Not included",
+        "zh": "不支持"
+      }
+    ],
+    "section": {
+      "en": "Safety Features",
+      "zh": "安全功能"
+    },
+    "value": {
+      "en": "Optional",
+      "zh": "可选"
+    }
+  },
+  {
+    "label": {
+      "en": "Fuse Protection",
+      "zh": "保险丝保护"
+    },
+    "note": {
+      "en": "Safety Features",
+      "zh": "安全功能"
+    },
+    "options": [
+      {
+        "en": "To be provided",
+        "zh": "待补充"
+      },
+      {
+        "en": "To be confirmed",
+        "zh": "待确认"
+      },
+      {
+        "en": "Included",
+        "zh": "支持"
+      },
+      {
+        "en": "Optional",
+        "zh": "可选"
+      },
+      {
+        "en": "Customizable",
+        "zh": "可定制"
+      },
+      {
+        "en": "Not included",
+        "zh": "不支持"
+      },
+      {
+        "en": "13A fuse for UK plug configuration; other plugs to be confirmed",
+        "zh": "英式插头配置13A保险丝；其他插头待确认"
+      }
+    ],
+    "section": {
+      "en": "Safety Features",
+      "zh": "安全功能"
+    },
+    "value": {
+      "en": "13A fuse for UK plug configuration; other plugs to be confirmed",
+      "zh": "英式插头配置13A保险丝；其他插头待确认"
+    }
+  },
+  {
+    "label": {
+      "en": "Plug Options",
+      "zh": "插头类型"
+    },
+    "note": {
+      "en": "Plug & Socket",
+      "zh": "插头插座规格"
+    },
+    "options": [
+      {
+        "en": "13A UK Fused Plug",
+        "zh": "13A英式保险丝插头"
+      },
+      {
+        "en": "EU Plug",
+        "zh": "欧式插头"
+      },
+      {
+        "en": "India Plug",
+        "zh": "印度插头"
+      },
+      {
+        "en": "US Plug",
+        "zh": "美式插头"
+      },
+      {
+        "en": "AU Plug",
+        "zh": "澳规插头"
+      },
+      {
+        "en": "Customized Plug",
+        "zh": "定制插头"
+      },
+      {
+        "en": "13A UK Fused Plug, EU Plug, India Plug and other customized options",
+        "zh": "13A英式保险丝插头、欧式插头、印度插头等，可定制"
+      }
+    ],
+    "section": {
+      "en": "Plug & Socket",
+      "zh": "插头插座规格"
+    },
+    "value": {
+      "en": "13A UK Fused Plug, EU Plug, India Plug and other customized options",
+      "zh": "13A英式保险丝插头、欧式插头、印度插头等，可定制"
+    }
+  },
+  {
+    "label": {
+      "en": "Number of Outlets",
+      "zh": "插座位数"
+    },
+    "note": {
+      "en": "Plug & Socket",
+      "zh": "插头插座规格"
+    },
+    "options": [
+      {
+        "en": "2 Outlets",
+        "zh": "2位"
+      },
+      {
+        "en": "3 Outlets",
+        "zh": "3位"
+      },
+      {
+        "en": "4 Outlets",
+        "zh": "4位"
+      },
+      {
+        "en": "5 Outlets",
+        "zh": "5位"
+      },
+      {
+        "en": "6 Outlets",
+        "zh": "6位"
+      },
+      {
+        "en": "2 / 3 / 4 / 5 / 6 Outlets",
+        "zh": "2 / 3 / 4 / 5 / 6位"
+      }
+    ],
+    "section": {
+      "en": "Plug & Socket",
+      "zh": "插头插座规格"
+    },
+    "value": {
+      "en": "2 / 3 / 4 / 5 / 6 Outlets",
+      "zh": "2 / 3 / 4 / 5 / 6位"
+    }
+  },
+  {
+    "label": {
+      "en": "Socket Standard",
+      "zh": "插座类型"
+    },
+    "note": {
+      "en": "Plug & Socket",
+      "zh": "插头插座规格"
+    },
+    "options": [
+      {
+        "en": "To be provided",
+        "zh": "待补充"
+      },
+      {
+        "en": "To be confirmed",
+        "zh": "待确认"
+      },
+      {
+        "en": "Included",
+        "zh": "支持"
+      },
+      {
+        "en": "Optional",
+        "zh": "可选"
+      },
+      {
+        "en": "Customizable",
+        "zh": "可定制"
+      },
+      {
+        "en": "Not included",
+        "zh": "不支持"
+      },
+      {
+        "en": "To be provided; configurable for the target market",
+        "zh": "待补充，可按目标市场确认"
+      }
+    ],
+    "section": {
+      "en": "Plug & Socket",
+      "zh": "插头插座规格"
+    },
+    "value": {
+      "en": "To be provided; configurable for the target market",
+      "zh": "待补充，可按目标市场确认"
+    }
+  },
+  {
+    "label": {
+      "en": "Cable Length",
+      "zh": "线长"
+    },
+    "note": {
+      "en": "Plug & Socket",
+      "zh": "插头插座规格"
+    },
+    "options": [
+      {
+        "en": "1m",
+        "zh": "1m"
+      },
+      {
+        "en": "1.5m",
+        "zh": "1.5m"
+      },
+      {
+        "en": "2m",
+        "zh": "2m"
+      },
+      {
+        "en": "3m",
+        "zh": "3m"
+      },
+      {
+        "en": "To be provided; customizable",
+        "zh": "待补充，可定制"
+      }
+    ],
+    "section": {
+      "en": "Plug & Socket",
+      "zh": "插头插座规格"
+    },
+    "value": {
+      "en": "To be provided; customizable",
+      "zh": "待补充，可定制"
+    }
+  },
+  {
+    "label": {
+      "en": "Cable Specification",
+      "zh": "线材规格"
+    },
+    "note": {
+      "en": "Plug & Socket",
+      "zh": "插头插座规格"
+    },
+    "options": [
+      {
+        "en": "3G0.75mm²",
+        "zh": "3G0.75mm²"
+      },
+      {
+        "en": "3G1.0mm²",
+        "zh": "3G1.0mm²"
+      },
+      {
+        "en": "3G1.25mm²",
+        "zh": "3G1.25mm²"
+      },
+      {
+        "en": "To be provided",
+        "zh": "待补充"
+      },
+      {
+        "en": "To be provided, e.g. 3G0.75mm² / 3G1.0mm²",
+        "zh": "待补充，例如3G0.75mm² / 3G1.0mm²"
+      }
+    ],
+    "section": {
+      "en": "Plug & Socket",
+      "zh": "插头插座规格"
+    },
+    "value": {
+      "en": "To be provided, e.g. 3G0.75mm² / 3G1.0mm²",
+      "zh": "待补充，例如3G0.75mm² / 3G1.0mm²"
+    }
+  },
+  {
+    "label": {
+      "en": "Cable Material",
+      "zh": "电源线材质"
+    },
+    "note": {
+      "en": "Plug & Socket",
+      "zh": "插头插座规格"
+    },
+    "options": [
+      {
+        "en": "To be provided",
+        "zh": "待补充"
+      },
+      {
+        "en": "To be confirmed",
+        "zh": "待确认"
+      },
+      {
+        "en": "Included",
+        "zh": "支持"
+      },
+      {
+        "en": "Optional",
+        "zh": "可选"
+      },
+      {
+        "en": "Customizable",
+        "zh": "可定制"
+      },
+      {
+        "en": "Not included",
+        "zh": "不支持"
+      }
+    ],
+    "section": {
+      "en": "Plug & Socket",
+      "zh": "插头插座规格"
+    },
+    "value": {
+      "en": "To be provided",
+      "zh": "待补充"
+    }
+  },
+  {
+    "label": {
+      "en": "Unit Weight",
+      "zh": "单个重量"
+    },
+    "note": {
+      "en": "Packaging & Logistics",
+      "zh": "包装物流"
+    },
+    "options": [
+      {
+        "en": "To be provided",
+        "zh": "待补充"
+      },
+      {
+        "en": "To be confirmed",
+        "zh": "待确认"
+      },
+      {
+        "en": "Included",
+        "zh": "支持"
+      },
+      {
+        "en": "Optional",
+        "zh": "可选"
+      },
+      {
+        "en": "Customizable",
+        "zh": "可定制"
+      },
+      {
+        "en": "Not included",
+        "zh": "不支持"
+      }
+    ],
+    "section": {
+      "en": "Packaging & Logistics",
+      "zh": "包装物流"
+    },
+    "value": {
+      "en": "To be provided",
+      "zh": "待补充"
+    }
+  },
+  {
+    "label": {
+      "en": "Unit Volume",
+      "zh": "单个体积"
+    },
+    "note": {
+      "en": "Packaging & Logistics",
+      "zh": "包装物流"
+    },
+    "options": [
+      {
+        "en": "To be provided",
+        "zh": "待补充"
+      },
+      {
+        "en": "To be confirmed",
+        "zh": "待确认"
+      },
+      {
+        "en": "Included",
+        "zh": "支持"
+      },
+      {
+        "en": "Optional",
+        "zh": "可选"
+      },
+      {
+        "en": "Customizable",
+        "zh": "可定制"
+      },
+      {
+        "en": "Not included",
+        "zh": "不支持"
+      }
+    ],
+    "section": {
+      "en": "Packaging & Logistics",
+      "zh": "包装物流"
+    },
+    "value": {
+      "en": "To be provided",
+      "zh": "待补充"
+    }
+  },
+  {
+    "label": {
+      "en": "Product Dimensions",
+      "zh": "产品尺寸"
+    },
+    "note": {
+      "en": "Packaging & Logistics",
+      "zh": "包装物流"
+    },
+    "options": [
+      {
+        "en": "To be provided",
+        "zh": "待补充"
+      },
+      {
+        "en": "To be confirmed",
+        "zh": "待确认"
+      },
+      {
+        "en": "Included",
+        "zh": "支持"
+      },
+      {
+        "en": "Optional",
+        "zh": "可选"
+      },
+      {
+        "en": "Customizable",
+        "zh": "可定制"
+      },
+      {
+        "en": "Not included",
+        "zh": "不支持"
+      }
+    ],
+    "section": {
+      "en": "Packaging & Logistics",
+      "zh": "包装物流"
+    },
+    "value": {
+      "en": "To be provided",
+      "zh": "待补充"
+    }
+  },
+  {
+    "label": {
+      "en": "Packaging Method",
+      "zh": "包装方式"
+    },
+    "note": {
+      "en": "Packaging & Logistics",
+      "zh": "包装物流"
+    },
+    "options": [
+      {
+        "en": "Color box",
+        "zh": "彩盒"
+      },
+      {
+        "en": "White box",
+        "zh": "白盒"
+      },
+      {
+        "en": "Neutral box",
+        "zh": "中性盒"
+      },
+      {
+        "en": "OPP bag",
+        "zh": "OPP袋"
+      },
+      {
+        "en": "Customized packaging",
+        "zh": "定制包装"
+      },
+      {
+        "en": "To be provided, e.g. color box, white box, neutral box or OPP bag",
+        "zh": "待补充，例如彩盒、白盒、中性盒、OPP袋"
+      }
+    ],
+    "section": {
+      "en": "Packaging & Logistics",
+      "zh": "包装物流"
+    },
+    "value": {
+      "en": "To be provided, e.g. color box, white box, neutral box or OPP bag",
+      "zh": "待补充，例如彩盒、白盒、中性盒、OPP袋"
+    }
+  },
+  {
+    "label": {
+      "en": "Individual Package Size",
+      "zh": "单个包装尺寸"
+    },
+    "note": {
+      "en": "Packaging & Logistics",
+      "zh": "包装物流"
+    },
+    "options": [
+      {
+        "en": "To be provided",
+        "zh": "待补充"
+      },
+      {
+        "en": "To be confirmed",
+        "zh": "待确认"
+      },
+      {
+        "en": "Included",
+        "zh": "支持"
+      },
+      {
+        "en": "Optional",
+        "zh": "可选"
+      },
+      {
+        "en": "Customizable",
+        "zh": "可定制"
+      },
+      {
+        "en": "Not included",
+        "zh": "不支持"
+      }
+    ],
+    "section": {
+      "en": "Packaging & Logistics",
+      "zh": "包装物流"
+    },
+    "value": {
+      "en": "To be provided",
+      "zh": "待补充"
+    }
+  },
+  {
+    "label": {
+      "en": "Quantity per Carton",
+      "zh": "每箱数量"
+    },
+    "note": {
+      "en": "Packaging & Logistics",
+      "zh": "包装物流"
+    },
+    "options": [
+      {
+        "en": "To be provided",
+        "zh": "待补充"
+      },
+      {
+        "en": "To be confirmed",
+        "zh": "待确认"
+      },
+      {
+        "en": "Included",
+        "zh": "支持"
+      },
+      {
+        "en": "Optional",
+        "zh": "可选"
+      },
+      {
+        "en": "Customizable",
+        "zh": "可定制"
+      },
+      {
+        "en": "Not included",
+        "zh": "不支持"
+      }
+    ],
+    "section": {
+      "en": "Packaging & Logistics",
+      "zh": "包装物流"
+    },
+    "value": {
+      "en": "To be provided",
+      "zh": "待补充"
+    }
+  },
+  {
+    "label": {
+      "en": "Carton Dimensions",
+      "zh": "外箱尺寸"
+    },
+    "note": {
+      "en": "Packaging & Logistics",
+      "zh": "包装物流"
+    },
+    "options": [
+      {
+        "en": "To be provided",
+        "zh": "待补充"
+      },
+      {
+        "en": "To be confirmed",
+        "zh": "待确认"
+      },
+      {
+        "en": "Included",
+        "zh": "支持"
+      },
+      {
+        "en": "Optional",
+        "zh": "可选"
+      },
+      {
+        "en": "Customizable",
+        "zh": "可定制"
+      },
+      {
+        "en": "Not included",
+        "zh": "不支持"
+      }
+    ],
+    "section": {
+      "en": "Packaging & Logistics",
+      "zh": "包装物流"
+    },
+    "value": {
+      "en": "To be provided",
+      "zh": "待补充"
+    }
+  },
+  {
+    "label": {
+      "en": "Carton Gross / Net Weight",
+      "zh": "单箱毛重"
+    },
+    "note": {
+      "en": "Packaging & Logistics",
+      "zh": "包装物流"
+    },
+    "options": [
+      {
+        "en": "To be provided",
+        "zh": "待补充"
+      },
+      {
+        "en": "To be confirmed",
+        "zh": "待确认"
+      },
+      {
+        "en": "Included",
+        "zh": "支持"
+      },
+      {
+        "en": "Optional",
+        "zh": "可选"
+      },
+      {
+        "en": "Customizable",
+        "zh": "可定制"
+      },
+      {
+        "en": "Not included",
+        "zh": "不支持"
+      }
+    ],
+    "section": {
+      "en": "Packaging & Logistics",
+      "zh": "包装物流"
+    },
+    "value": {
+      "en": "To be provided",
+      "zh": "待补充"
+    }
+  },
+  {
+    "label": {
+      "en": "Customs Declaration",
+      "zh": "海关敏感属性"
+    },
+    "note": {
+      "en": "Packaging & Logistics",
+      "zh": "包装物流"
+    },
+    "options": [
+      {
+        "en": "To be provided",
+        "zh": "待补充"
+      },
+      {
+        "en": "To be confirmed",
+        "zh": "待确认"
+      },
+      {
+        "en": "Included",
+        "zh": "支持"
+      },
+      {
+        "en": "Optional",
+        "zh": "可选"
+      },
+      {
+        "en": "Customizable",
+        "zh": "可定制"
+      },
+      {
+        "en": "Not included",
+        "zh": "不支持"
+      },
+      {
+        "en": "Electrical product with plug; no battery, liquid or dangerous goods. Subject to final customs documents",
+        "zh": "电器类产品，带插头；不含电池、液体及危险品，具体以报关资料为准"
+      }
+    ],
+    "section": {
+      "en": "Packaging & Logistics",
+      "zh": "包装物流"
+    },
+    "value": {
+      "en": "Electrical product with plug; no battery, liquid or dangerous goods. Subject to final customs documents",
+      "zh": "电器类产品，带插头；不含电池、液体及危险品，具体以报关资料为准"
+    }
+  },
+  {
+    "label": {
+      "en": "HS Code",
+      "zh": "HS编码"
+    },
+    "note": {
+      "en": "Packaging & Logistics",
+      "zh": "包装物流"
+    },
+    "options": [
+      {
+        "en": "To be provided",
+        "zh": "待补充"
+      },
+      {
+        "en": "To be confirmed",
+        "zh": "待确认"
+      },
+      {
+        "en": "Included",
+        "zh": "支持"
+      },
+      {
+        "en": "Optional",
+        "zh": "可选"
+      },
+      {
+        "en": "Customizable",
+        "zh": "可定制"
+      },
+      {
+        "en": "Not included",
+        "zh": "不支持"
+      }
+    ],
+    "section": {
+      "en": "Packaging & Logistics",
+      "zh": "包装物流"
+    },
+    "value": {
+      "en": "To be provided",
+      "zh": "待补充"
+    }
+  },
+  {
+    "label": {
+      "en": "Available Certifications",
+      "zh": "可提供认证"
+    },
+    "note": {
+      "en": "Certifications",
+      "zh": "认证信息"
+    },
+    "options": [
+      {
+        "en": "CE",
+        "zh": "CE"
+      },
+      {
+        "en": "RoHS",
+        "zh": "RoHS"
+      },
+      {
+        "en": "UKCA",
+        "zh": "UKCA"
+      },
+      {
+        "en": "BS1363",
+        "zh": "BS1363"
+      },
+      {
+        "en": "GCC",
+        "zh": "GCC"
+      },
+      {
+        "en": "SASO",
+        "zh": "SASO"
+      },
+      {
+        "en": "SONCAP",
+        "zh": "SONCAP"
+      },
+      {
+        "en": "To be provided",
+        "zh": "待补充"
+      },
+      {
+        "en": "To be provided, e.g. CE, RoHS, UKCA, BS1363, GCC, SASO or SONCAP",
+        "zh": "待补充，例如CE、RoHS、UKCA、BS1363、GCC、SASO、SONCAP等"
+      }
+    ],
+    "section": {
+      "en": "Certifications",
+      "zh": "认证信息"
+    },
+    "value": {
+      "en": "To be provided, e.g. CE, RoHS, UKCA, BS1363, GCC, SASO or SONCAP",
+      "zh": "待补充，例如CE、RoHS、UKCA、BS1363、GCC、SASO、SONCAP等"
+    }
+  },
+  {
+    "label": {
+      "en": "Market Compliance",
+      "zh": "认证适用说明"
+    },
+    "note": {
+      "en": "Certifications",
+      "zh": "认证信息"
+    },
+    "options": [
+      {
+        "en": "To be provided",
+        "zh": "待补充"
+      },
+      {
+        "en": "To be confirmed",
+        "zh": "待确认"
+      },
+      {
+        "en": "Included",
+        "zh": "支持"
+      },
+      {
+        "en": "Optional",
+        "zh": "可选"
+      },
+      {
+        "en": "Customizable",
+        "zh": "可定制"
+      },
+      {
+        "en": "Not included",
+        "zh": "不支持"
+      },
+      {
+        "en": "Subject to plug type, product configuration and destination-market requirements",
+        "zh": "按插头规格、产品配置及目标市场确认"
+      }
+    ],
+    "section": {
+      "en": "Certifications",
+      "zh": "认证信息"
+    },
+    "value": {
+      "en": "Subject to plug type, product configuration and destination-market requirements",
+      "zh": "按插头规格、产品配置及目标市场确认"
+    }
+  },
+  {
+    "label": {
+      "en": "Test Reports",
+      "zh": "测试报告"
+    },
+    "note": {
+      "en": "Certifications",
+      "zh": "认证信息"
+    },
+    "options": [
+      {
+        "en": "To be provided",
+        "zh": "待补充"
+      },
+      {
+        "en": "To be confirmed",
+        "zh": "待确认"
+      },
+      {
+        "en": "Included",
+        "zh": "支持"
+      },
+      {
+        "en": "Optional",
+        "zh": "可选"
+      },
+      {
+        "en": "Customizable",
+        "zh": "可定制"
+      },
+      {
+        "en": "Not included",
+        "zh": "不支持"
+      }
+    ],
+    "section": {
+      "en": "Certifications",
+      "zh": "认证信息"
+    },
+    "value": {
+      "en": "To be provided",
+      "zh": "待补充"
+    }
+  }
+]
+
+function localizedValue(value, locale, fallback = '') {
+  if (value && typeof value === 'object') {
+    return value[locale] || value.en || value.zh || fallback
+  }
+  return value || fallback
+}
+
+function normalizeOptions(options, locale) {
+  if (!Array.isArray(options)) return []
+  return options.map(item => localizedValue(item, locale)).filter(Boolean)
+}
+
+function uniqueList(values) {
+  return Array.from(new Set((values || []).filter(Boolean)))
+}
+
+function specKeyFromParts(labelEn, labelZh, noteEn, noteZh) {
+  return [labelEn || '', labelZh || '', noteEn || '', noteZh || ''].join('::').toLowerCase()
+}
+
+function specKey(spec = {}) {
+  const label = spec.label || spec.name || spec.key || ''
+  const note = spec.note || spec.notes || spec.remark || spec.section || ''
+  return specKeyFromParts(
+    spec.labelEn || localizedValue(label, 'en'),
+    spec.labelZh || localizedValue(label, 'zh', spec.labelEn || localizedValue(label, 'en')),
+    spec.noteEn || localizedValue(note, 'en'),
+    spec.noteZh || localizedValue(note, 'zh', spec.noteEn || localizedValue(note, 'en'))
+  )
+}
+
+function stableSpecId(spec = {}) {
+  const key = specKey(spec)
+  if (!key) return ''
+  let hash = 2166136261
+  for (let index = 0; index < key.length; index += 1) {
+    hash ^= key.charCodeAt(index)
+    hash = Math.imul(hash, 16777619)
+  }
+  return `spec-${(hash >>> 0).toString(16).padStart(8, '0')}`
+}
+
+export function isCustomizationSpec(spec = {}) {
+  const note = spec.note || spec.notes || spec.remark || spec.section || ''
+  const noteEn = spec.noteEn || localizedValue(note, 'en')
+  const noteZh = spec.noteZh || localizedValue(note, 'zh', noteEn)
+  const removedGroupZh = [0x5b9a, 0x5236, 0x9009, 0x9879].map(code => String.fromCharCode(code)).join('')
+  return noteEn.trim().toLowerCase() === 'customization' || noteZh.trim() === removedGroupZh
+}
+
+function productSpecTemplateRows(template = defaultSpecTemplate) {
+  return (template || defaultSpecTemplate).filter(spec => !isCustomizationSpec(spec))
+}
+
+export function defaultSpecTemplateRows() {
+  return productSpecTemplateRows(defaultSpecTemplate).map(item => ({ ...item }))
+}
+
+export function createDefaultPowerStripSpecs(template = defaultSpecTemplate) {
+  return productSpecTemplateRows(template).map((spec, index) => normalizeSpecFormRow(spec, index))
+}
+
+export function mergeSpecsWithTemplate(specs = [], template = defaultSpecTemplate) {
+  const savedById = new Map()
+  const savedByKey = new Map()
+  ;(specs || []).forEach((spec, index) => {
+    if (isCustomizationSpec(spec)) return
+    const row = normalizeSpecFormRow(spec, index)
+    if (row.id) savedById.set(String(row.id), row)
+    savedByKey.set(specKey(spec), row)
+  })
+  return productSpecTemplateRows(template).map((templateSpec, index) => {
+    const templateRow = normalizeSpecFormRow(templateSpec, index)
+    const saved = savedById.get(String(templateRow.id)) || savedByKey.get(specKey(templateSpec))
+    if (!saved) return templateRow
+    return {
+      ...templateRow,
+      valueEn: saved.valueEn || templateRow.valueEn,
+      valueZh: saved.valueZh || templateRow.valueZh
+    }
+  })
+}
+
+export function normalizeSpecFormRow(spec = {}, index = 0) {
+  const sourceLabel = spec.label || spec.name || spec.key || ''
+  const sourceValue = spec.value || spec.details || spec.content || ''
+  const sourceNote = spec.note || spec.notes || spec.remark || spec.section || ''
+  const labelEn = spec.labelEn || localizedValue(sourceLabel, 'en')
+  const labelZh = spec.labelZh || localizedValue(sourceLabel, 'zh', labelEn)
+  const valueEn = spec.valueEn || localizedValue(sourceValue, 'en')
+  const valueZh = spec.valueZh || localizedValue(sourceValue, 'zh', valueEn)
+  const noteEn = spec.noteEn || localizedValue(sourceNote, 'en')
+  const noteZh = spec.noteZh || localizedValue(sourceNote, 'zh', noteEn)
+  return {
+    id: spec.id || spec.templateId || stableSpecId(spec) || `spec-${Date.now()}-${index}`,
+    labelEn,
+    labelZh,
+    valueEn,
+    valueZh,
+    noteEn,
+    noteZh,
+    optionsEn: uniqueList(spec.optionsEn || normalizeOptions(spec.options, 'en')),
+    optionsZh: uniqueList(spec.optionsZh || normalizeOptions(spec.options, 'zh'))
+  }
+}
+
+export function specPayloadFromForm(item) {
+  const labelEn = (item.labelEn || '').trim()
+  const labelZh = (item.labelZh || '').trim()
+  const valueEn = (item.valueEn || '').trim()
+  const valueZh = (item.valueZh || '').trim()
+  if (!(labelEn || labelZh)) return null
+  const noteEn = (item.noteEn || '').trim()
+  const noteZh = (item.noteZh || '').trim()
+  const maxOptions = Math.max(item.optionsEn?.length || 0, item.optionsZh?.length || 0)
+  const payload = {
+    id: item.id || stableSpecId(item),
+    label: { en: labelEn || labelZh, zh: labelZh || labelEn },
+    value: { en: valueEn || valueZh, zh: valueZh || valueEn },
+    note: { en: noteEn || noteZh, zh: noteZh || noteEn },
+    section: { en: noteEn || noteZh, zh: noteZh || noteEn },
+    options: Array.from({ length: maxOptions }, (_, index) => ({
+      en: item.optionsEn?.[index] || item.optionsZh?.[index] || '',
+      zh: item.optionsZh?.[index] || item.optionsEn?.[index] || ''
+    })).filter(item => item.en || item.zh)
+  }
+  return isCustomizationSpec(payload) ? null : payload
+}
+
+export function specTemplatePayloadFromForm(rows = []) {
+  return rows.map(item => {
+    const payload = specPayloadFromForm(item)
+    if (!payload) return null
+    delete payload.value
+    return payload
+  }).filter(Boolean)
+}
